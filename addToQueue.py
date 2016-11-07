@@ -5,7 +5,7 @@ import functions
 
 def addToQueue(url):
 		db = functions.getDB()
-		db.queue.insert({"video ": url})
+		db.queuee.insert({"video ": url})
 	
 
 

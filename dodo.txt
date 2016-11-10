@@ -1,0 +1,14 @@
+______
+Wishlist:
+
+- fix youtube strings to truncate extra GET vars, queue erroneously recognizes the same videos as different
+- add feature to examine recommended videos from YT and decide whether or not to include them to queue
+- add feature to rank queue (perhaps by how many times a video has been recommended by other videos)
+
+
+
+_____
+Notes:
+
+- Easy export:
+ mongoexport --db CineSignsYoutube --collection data --type=csv --fields=interactionCount,likes,dislikes,title,keywords,videoId,datePublished,og:url,isFamilyFriendly,description,duration,artist,genre > test.csv
